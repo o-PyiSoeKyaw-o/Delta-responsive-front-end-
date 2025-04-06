@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav-bar -->
+    <div class="nav-bar">
+        <h1>Delta</h1>
+        <input class="search-box" type="text" id="search-box" placeholder="search products...">
+        <div class="nav-items">
+            <ul>
+                <li><a href="index.html">Store</a></li>
+                <li><a href="wishList.html">Wish list</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>  
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>
+
+    <!-- WishList -->
+    <div class="WishList-container">
+        <div class="WishList-detail">
+            <h2>Wish List</h2><hr>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="itemDetail.html">
+                <div class="WishList">
+                    <img src="photo_2025-01-11_18-02-32.jpg" alt="">
+                    <div class="WishList-description">
+                        <h2>product1</h2>
+                        <p>$100</p>
+                        <button>Buy</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <p>&copy;Delta all right reserve</p>
+    </div>
+
+<script>
+    const burger = document.querySelector('.burger');
+    const navItems = document.querySelector('.nav-items');
+    
+    burger.addEventListener('click',() => {
+        navItems.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
+</script>
+    
+</body>
+</html>
